@@ -1,0 +1,7 @@
+ifneq (,$(filter wolfmqtt,$(USEMODULE))) # if module in USEMODULE
+  USEMODULE += wolfssl                         # add dependencies to USEMODULE
+  USEMODULE += wolfmqtt_mqtt_client
+  USEMODULE += wolfmqtt_mqtt_packet
+  USEMODULE += wolfmqtt_mqtt_socket
+  USEMODULE += wolfmqtt_mqtt_types
+endif
