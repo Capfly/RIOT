@@ -29,7 +29,8 @@
 #include "wolfmqtt/mqtt_client.h"
 #include "mqttsimple.h"
 
-#define HAVE_SOCKET 1
+/* For this example this is assumed ... */
+#define HAVE_SOCKET
 
 /* Requires BSD Style Socket */
 #ifdef HAVE_SOCKET
